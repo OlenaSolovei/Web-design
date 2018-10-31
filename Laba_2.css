@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 940px;
+    margin: 0 auto;
+}
+.wrapper {
+	display: table;
+	height: 100%;	
+}
+.content {
+	display: table-row;
+	height: 100%;
+}
+.row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.row { display: inline-block; }
+	/* start commented backslash hack \*/
+* html .row { height: 0%; }
+	/* .row { display: block; } */
+	/* close commented backslash hack */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.header{
+	background: #00807b;
+	overflow: hidden;
+	position: relative;
+	padding: 20px;
+}
+.header-row {
+	width: 100%;
+}
+.logo {
+	float: left;
+	width: 10%;
+}
+.logo>a>img {
+	width: 100%;
+	height: auto;
+}
+.title {
+	width: 90%;
+	float: left;
+}
+.title-content {
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+}
+.title-content>h1 {
+	font-size: 22px;
+}
+.content-row {
+	margin: 20px 10px;
+}
+.content-text{
+	width: 60%;
+	float: left;
+}
+.text {
+	padding: 0 20px;
+	text-align: justify;
+}
+.content-image	{
+	width: 40%;
+	float: left;
+}
+.content-image>img {
+	width: 100%;
+	height: auto;
+}
+.content-part2-row {
+	width: 100%;
+}
+.content-part2__block1, .content-part2__block2, .content-part2__block3, .content-part2__block4 {
+	border: 1px solid black;
+	float: left;
+	width: 22.7%;
+	margin: 1%;
+}
+footer{
+	background: #00807b;
+	padding: 20px;
+}
